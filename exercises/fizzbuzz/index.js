@@ -17,11 +17,11 @@ function fizzBuzz(n) {			// JavaScript takes n as integer...
 	// var a = parseInt(n);		//...so we don't need to parse n
 
 	for (var i = 1; i <= n;) {
-		if (i % 3 === 0 && i % 5 ===0) {
+		if (i % 3 === 0 && i % 5 ===0) {		// check if number is divisible by 3 and 5 both
 			console.log('fizzbuzz')
-		} else if ( i % 3 === 0) {
+		} else if ( i % 3 === 0) {				// check if number is divisible by 3
 			console.log('fizz')
-		} else if ( i % 5 === 0){
+		} else if ( i % 5 === 0){				// check if number is divisible by 5
 			console.log('buzz')
 		} else {
 			console.log(i)
