@@ -16,8 +16,8 @@
 def fizzbuzz (n):			# n ---> whole number
 	a = int(n)
 	i = 1
+	
 	while i <= a:
-	# for i in range(a):
 		if i % 3 == 0 and i % 5 == 0:
 			print 'fizzbuzz'
 		elif i % 5 == 0:
