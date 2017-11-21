@@ -5,10 +5,13 @@ test('maxChar function exists', () => {
 });
 
 test('Finds the most frequently used char', () => {
-  expect(maxChar('a')).toEqual('a');
-  expect(maxChar('abcdefghijklmnaaaaa')).toEqual('a');
+  expect(maxChar('abcdefghijklmnaaaaaz')).toEqual('a');
 });
 
 test('Works with numbers in the string', () => {
-  expect(maxChar('ab1c1d1e1f1g1')).toEqual('1');
+  expect(maxChar('ab1c1d1e1f1g1z')).toEqual('1');
+});
+
+test('Finds the most frequently used char', () => {
+  expect(maxChar('cacacbb')).toEqual('c');
 });

@@ -17,7 +17,7 @@ def maxChar(m_str):
 		for j in range (i+1):
 			if m_list[i] == m_uniqueChars[j]:
 				m_noOfRepeats[j] +=1
-				# print 'Debug1:' + str(j)			# debug
+				# print 'Debug1:' + str(j)			# debug OK
 				break
 			else:
 				if j==i or i==0:
