@@ -18,13 +18,13 @@ function fizzBuzz(n) {			// JavaScript takes n as integer...
 
 	for (var i = 1; i <= n;) {
 		if (i % 3 === 0 && i % 5 ===0) {		// check if number is divisible by 3 and 5 both
-			console.log('fizzbuzz')
+			console.log('fizzbuzz');
 		} else if ( i % 3 === 0) {				// check if number is divisible by 3
-			console.log('fizz')
+			console.log('fizz');
 		} else if ( i % 5 === 0){				// check if number is divisible by 5
-			console.log('buzz')
+			console.log('buzz');
 		} else {
-			console.log(i)
+			console.log(i);
 		}
 
 		i++;					// incerment count
